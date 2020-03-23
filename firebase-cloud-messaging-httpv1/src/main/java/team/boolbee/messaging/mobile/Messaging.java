@@ -313,7 +313,8 @@ public class Messaging {
 		JsonObject jMessage = new JsonObject();
 		jMessage.add("android", jAndroid);
 		jMessage.add("data", jdata);
-		jMessage.addProperty("token", TOKEN);
+		jMessage.addProperty("topic", "control");
+//		jMessage.addProperty("token", TOKEN);
 
 		JsonObject jFcm = new JsonObject();
 		jFcm.add(MESSAGE_KEY, jMessage);
