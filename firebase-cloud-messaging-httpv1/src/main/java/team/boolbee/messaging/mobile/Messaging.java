@@ -303,7 +303,7 @@ public class Messaging {
 		JsonObject jAndroid = new JsonObject();
 		//jAndroid.addProperty("collapse_key", "PRUEBA");
 		jAndroid.addProperty("priority", "HIGH"); // HIGH
-		jAndroid.addProperty("ttl", "0s");		
+		//jAndroid.addProperty("ttl", "0s");
 		//jAndroid.addProperty("restricted_package_name", "team.boolbee.mdemo.agent");		
 		
 		JsonObject jdata = new JsonObject();
